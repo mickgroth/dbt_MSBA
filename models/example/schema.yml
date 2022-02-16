@@ -19,3 +19,12 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: stg_actor
+      description: "A starter dbt model"
+      columns:
+          - name: actor_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
