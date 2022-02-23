@@ -6,6 +6,12 @@ sources:
     database: sakila_raw
     tables:
       - name: actor
-      - name: address
-      - name: staff
       - name: store
+      - name: staff
+      - name: address
+      - name: customer
+      - name: city
+      - name: country
+      - name: rental
+
+
