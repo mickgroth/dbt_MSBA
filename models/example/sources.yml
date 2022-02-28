@@ -13,5 +13,16 @@ sources:
       - name: city
       - name: country
       - name: rental
-
-
+      - name: film
+      - name: language
+      - name: category
+      - name: film_category
+      - name: payment
+      - name: inventory
+      
+  - name: analytics
+    database: sakila_dw
+    tables:
+      - name: date_dim
+      - name: timeofday_dim
+  
